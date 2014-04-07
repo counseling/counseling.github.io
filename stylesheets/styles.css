@@ -130,7 +130,7 @@ header li {
 
 header ul a {
   line-height:1;
-  font-size:12px;
+  font-size:10px;
   color:#999;
   display:block;
   text-align:center;
@@ -150,7 +150,7 @@ header ul li + li {
 
 header ul li + li + li + li {
   border-right:none;
-  width:89px;
+  width:75px;
 }
 
 header ul a strong {
