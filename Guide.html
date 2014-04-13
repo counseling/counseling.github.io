@@ -67,9 +67,16 @@ padding:5px;
 
 <div data-role="page" id="page">
     <div data-role="header">
-        <h1>Page One</h1>
         
-        <p> here is some text </p>
+        
+        <div data-role="content">    
+            <ul data-role="listview">
+                <li><a href="#Sessions 7-12">Page Two</a></li>
+                <li><a href="#Sessions 13-17 ">Page Three</a></li>
+            </ul>        
+        </div>
+        
+        <h1>Sessions 1-6</h1>
         
         <table style="width:400px">
         <tr>
@@ -99,21 +106,15 @@ padding:5px;
         </table> 
         
     </div>
-    <div data-role="content">    
-        <ul data-role="listview">
-            <li><a href="#page2">Page Two</a></li>
-            <li><a href="#page3">Page Three</a></li>
-            <li><a href="#page4">Page Four</a></li>
-        </ul>        
-    </div>
+    
     <div data-role="footer">
         <h4>Page Footer</h4>
     </div>
 </div>
 
-<div data-role="page" id="page2">
+<div data-role="page" id="Sessions 7-12">
     <div data-role="header">
-        <h1>Page Two</h1>
+        <h1>Sessions 7-13</h1>
     </div>
     <div data-role="content">    
         Content        
@@ -123,9 +124,9 @@ padding:5px;
     </div>
 </div>
 
-<div data-role="page" id="page3">
+<div data-role="page" id="Sessions 13-17">
     <div data-role="header">
-        <h1>Page Three</h1>
+        <h1>Sessions 13-17</h1>
     </div>
     <div data-role="content">    
         Content        
@@ -135,17 +136,6 @@ padding:5px;
     </div>
 </div>
 
-<div data-role="page" id="page4">
-    <div data-role="header">
-        <h1>Page Four</h1>
-    </div>
-    <div data-role="content">    
-        Content        
-    </div>
-    <div data-role="footer">
-        <h4>Page Footer</h4>
-    </div>
-</div>
 
 </body>
 </html>
